@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beb Game by Abir</title>
+<style>
+body{background:#111;color:white;text-align:center;font-family:sans-serif;padding-top:50px}
+button{font-size:30px;padding:30px 60px;border-radius:20px;background:#ff0066;color:white;border:none}
+h1{font-size:40px}
+</style>
+</head>
+<body>
+<h1>Beb Game by Abir ❤️</h1>
+<h2>Score: <span id="score">0</span></h2>
+<button onclick="tap()">TAP ME!</button>
+<script>
+let s=0;
+function tap(){s++; document.getElementById('score').innerText=s; if(s==10) alert('You Win Beb!');}
+</script>
+</body>
+</html>
